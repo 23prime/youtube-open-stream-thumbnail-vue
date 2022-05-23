@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: "Title",
+    name: "PopupTitle",
     mounted() {
         browser.runtime.sendMessage({});
     },
