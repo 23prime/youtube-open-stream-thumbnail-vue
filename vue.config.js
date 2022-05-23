@@ -6,9 +6,12 @@ module.exports = {
             title: "Popup",
         },
     },
+
     pluginOptions: {
         browserExtension: {
             componentOptions: {},
         },
     },
+
+    transpileDependencies: ["vuetify"],
 };
