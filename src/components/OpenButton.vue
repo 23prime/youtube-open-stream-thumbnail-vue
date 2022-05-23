@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <v-btn @click="openThumbnail">Open Thumbnail</v-btn>
+        <v-btn @click="openThumbnail" :disabled="!this.thumbnailUrl">Open</v-btn>
     </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
         return {
             currentUrl: null,
             streamId: null,
-            thumbnailUrl: [],
+            thumbnailUrl: null,
         };
     },
 
